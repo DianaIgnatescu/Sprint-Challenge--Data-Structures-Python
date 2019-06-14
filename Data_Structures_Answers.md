@@ -27,9 +27,13 @@ Add your answers to the questions below.
 
 
 7. What is the runtime complexity of your optimized code in `names.py`?
+    
+    The better approach has a runtime complexity of O(1), maybe O(n) in a worst case scenario. 
 
     The initial approach has a runtime complexity of O(n log n) because we need to search for every element in names_2.
 
 8. What is the space complexity of your optimized code in `names.py`?
+
+    The better approach has a space complexity of O(1), maybe O(n) in a worst case scenario. 
 
     The initial approach has a space complexity of O(n^2) because not only will the duplicates list grow based on the values in the inputs but we also need to store all the values from names_1.
