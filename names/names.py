@@ -11,6 +11,7 @@ f = open('names_2.txt', 'r')
 names_2 = f.read().split("\n")  # List containing 10000 names
 f.close()
 
+# duplicates = []
 
 # Attempting a second approach using the built-in set datatype.
 # Construct new set from the given list and use the intersection method.
@@ -19,10 +20,11 @@ f.close()
 
 duplicates = set(names_1).intersection(names_2)
 
-# duplicates = []
+# STRETCH - this approach runs in 1.773 seconds so it's much slower than both of the solutions below.
+# duplicates = [name for name in names_1 if name in names_2]
+
 
 # Initial approach runs in 0.259 seconds
-
 # bst = BinarySearchTree(names_1[0])
 # for name in names_2:
 #     bst.insert(name)
