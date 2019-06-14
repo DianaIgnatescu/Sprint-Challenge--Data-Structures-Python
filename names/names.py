@@ -20,7 +20,7 @@ f.close()
 
 duplicates = set(names_1).intersection(names_2)
 
-# STRETCH - this approach runs in 1.773 seconds so it's much slower than both of the solutions below.
+# STRETCH - this approach runs in 1.773 seconds so it's much slower than both of the solutions attempted.
 # duplicates = [name for name in names_1 if name in names_2]
 
 
