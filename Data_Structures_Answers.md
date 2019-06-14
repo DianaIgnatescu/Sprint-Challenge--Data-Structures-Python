@@ -17,10 +17,19 @@ Add your answers to the questions below.
     O(n) because of the list comprehension.
 
 
-5. What is the runtime complexity of the provided code in `names.py`?
+5. What is the runtime complexity of the provided code in `names.py`? 
+
+    O(n^2) because of we are nesting one loop inside another loop.
 
 6. What is the space complexity of the provided code in `names.py`?
 
+    O(n) because the list of duplicates will grow based on the values in the inputs since the list can have anywhere from 1 to n duplicates.
+
+
 7. What is the runtime complexity of your optimized code in `names.py`?
 
+    The initial approach has a runtime complexity of O(n log n) because we need to search for every element in names_2.
+
 8. What is the space complexity of your optimized code in `names.py`?
+
+    The initial approach has a space complexity of O(n^2) because not only will the duplicates list grow based on the values in the inputs but we also need to store all the values from names_1.
